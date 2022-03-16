@@ -1,9 +1,9 @@
-alert('abdulrahman if you click you WILL get hacked??')
-console.log('abdulrahman if you click you WILL get hacked??')
-console.log('أنا في الصف الحادي عشر 2/9')
-let budget = 20
-console.log( 30 > budget < 80 )  
-
-budget = 50
-
-console.log( 30 > budget < 80 ) 
+let grade =prompt('write your grade')
+if (grade >= 90){console.log('لقد حصلت على امتياز ')}
+if  (grade >= 80){console.log('   لقد حصلت على جيد جداً')}
+else if (grade >= 70){console.log('لقد حصلت على جيد')}
+else if (grade >= 60){console.log('قد حصلت على مقبول')}
+else if (grade >= 50){console.log('لقد حصلت على ضعيف')}
+else if  (grade < 50){
+    console.log("راسب💔" )
+}
